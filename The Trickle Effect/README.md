@@ -25,7 +25,7 @@ Escalating to Security for a look-see. It's probably just a weird bug, but Accou
 
 ---
 
-##Card Reveal Details
+## Card Reveal Details
 ### Initial Compromise: Phishing
 - A user in the HR department received an email titled "RE: Mandatory 2026 Benefits Adjustment" from a lookalike domain gov-benefits.org.
 - The email contained a password-protected ZIP file; the password was provided in the body of the email to bypass automated sandbox scanning.
@@ -67,7 +67,6 @@ Even if the network is cleaned, this service ensures the malware "wakes up" ever
 
 ## Upping the Ante
 ### Normal Level: Incident Heat Raisers
-
 #### Turn 7: The DDoS Discovery (DDoS Event)
 - "Your organization's IP range is currently the primary source of a massive Layer 7 DDoS attack hitting a major financial institution. The traffic is originating from your internal server VLAN."
 
