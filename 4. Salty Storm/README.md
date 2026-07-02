@@ -85,54 +85,55 @@ The account associated with this modification is a third party provider. No corr
 
 ## Heat Raisers
 ### Normal Incident
-Turn 2: The Infrastructure Blip
+* **Turn 2**: The Infrastructure Blip
 The Network Operations Center reports a brief routing blip. A core edge router on the regional management plane suddenly dropped its primary BGP neighbor relationship for forty five seconds before recovering. Central logs show this glitch occurred right after an administrative configuration change was pushed from the vendor VPN segment.
 
-Turn 6: The Secondary Foothold
+* **Turn 6**: The Secondary Foothold
 An automated internal network sweep picks up an unapproved, active network interface on a critical database server. The system logs show that a secondary, dual homed bridge has been activated on the host, and it is quietly establishing an outbound connection that completely bypasses the main corporate firewall proxy.
 
-Turn 8: The Telemetry Blackout
+* **Turn 8**: The Telemetry Blackout
 Central monitoring loses visibility into a major regional routing hub. Security event forwarding and netflow collection services are suddenly stopping across multiple core network appliances simultaneously, indicating that someone is systematically disabling the logging features on compromised infrastructure.
 
-Turn 10: Total Domain Compromise (The Finale)
+* **Turn 10**: Total Domain Compromise (The Finale)
 The incident hits full operational impact. The attacker utilizes their forged Golden Ticket credentials to push out global configuration updates across the entire Active Directory database, effectively locking out your internal administration team. The threat actor now has complete, permanent control over the ISP routing backbone, allowing them to intercept or redirect any subscriber traffic passing through the state.
 
 ### Live Incident
-* Attacker Turn 0 (10 left): Hidden Event: The threat actor has achieved initial access via a public facing edge device and has already established a persistence mechanism to maintain long term remote entry.
+* **Attacker Turn 0 (10 left)**: Hidden Event: The threat actor has achieved initial access via a public facing edge device and has already established a persistence mechanism to maintain long term remote entry.
   - Effect: Defenders can discover the Initial Access and Persistence cards. 
 
-* Attacker Turn 1 (9 left): Move: The attacker runs specialized clean-up scripts to selectively delete Windows Security events, clear local router command history logs, and systematically disable event-forwarding agents across core network switches.
+* **Attacker Turn 1 (9 left)**: Move: The attacker runs specialized clean-up scripts to selectively delete Windows Security events, clear local router command history logs, and systematically disable event-forwarding agents across core network switches.
   - Effect: -2 to SIEM Log Analysis
 
-* Attacker Turn 2 (8 left): Hidden Event: The threat actor is executing lateral movement across the internal management plane while simultaneously staging and initiating data exfiltration to external servers.
+* **Attacker Turn 2 (8 left)**: Hidden Event: The threat actor is executing lateral movement across the internal management plane while simultaneously staging and initiating data exfiltration to external servers.
   - Effect: Defenders can discover the Pivot/Escalate and C2/Exfil cards. 
 
-* Attacker Turn 3 (7 left): Move: The threat actor deploys a sophisticated, stealthy kernel-mode rootkit (such as Demodex) to intercept system API calls and hide their malicious processes, files, and open network connections directly from the local operating system.
+* **Attacker Turn 3 (7 left)**: Move: The threat actor deploys a sophisticated, stealthy kernel-mode rootkit (such as Demodex) to intercept system API calls and hide their malicious processes, files, and open network connections directly from the local operating system.
   - Effect: -2 to Endpoint Analysis
 
-* Attacker Turn 4 (6 left): Event: The infrastructure team reports that the network has become completely fragmented. The attacker has modified core routing tables and established unauthorized logical bridges across multiple segments. Any automated or manual attempts to segment network traffic or wall off compromised zones are failing completely because the traffic is automatically rerouting through rogue paths.
+* **Attacker Turn 4 (6 left)**: Event: The infrastructure team reports that the network has become completely fragmented. The attacker has modified core routing tables and established unauthorized logical bridges across multiple segments. Any automated or manual attempts to segment network traffic or wall off compromised zones are failing completely because the traffic is automatically rerouting through rogue paths.
   - Effect: -4 to Isolation
 
-* Attacker Turn 5 (5 left): Move: To blend in seamlessly with everyday network administration, the attacker completely avoids noisy commercial hacking tools, relying instead exclusively on native Windows administrative binaries (Living-off-the-Land) and legitimate system commands during off-hours.
+* **Attacker Turn 5 (5 left)**: Move: To blend in seamlessly with everyday network administration, the attacker completely avoids noisy commercial hacking tools, relying instead exclusively on native Windows administrative binaries (Living-off-the-Land) and legitimate system commands during off-hours.
   - Effect: -2 to UEBA
 
-* Attacker Turn 6 (4 left): Event: As the situation escalates, internal IT attempts to provision external access for your outside forensics partner. However, the attacker has completely hijacked the out-of-band management plane and revoked external VPN gateway access keys. Outside connections are being dropped at the perimeter, effectively locking your external experts out of the environment.
+* **Attacker Turn 6 (4 left)**: Event: As the situation escalates, internal IT attempts to provision external access for your outside forensics partner. However, the attacker has completely hijacked the out-of-band management plane and revoked external VPN gateway access keys. Outside connections are being dropped at the perimeter, effectively locking your external experts out of the environment.
   - Effect: -4 to Call a Consultant
 
-* Attacker Turn 7 (3 left): Move: The attacker alters network infrastructure boundaries by spinning up covert Generic Routing Encapsulation (GRE) and IPsec protocol tunnels over non-standard high ports, effectively routing all their staging traffic completely around corporate inspection points.
+* **Attacker Turn 7 (3 left)**: Move: The attacker alters network infrastructure boundaries by spinning up covert Generic Routing Encapsulation (GRE) and IPsec protocol tunnels over non-standard high ports, effectively routing all their staging traffic completely around corporate inspection points.
   - Effect: -2 to Firewall Log Review
 
-* Attacker Turn 8 (2 left): Event: Chaos hits the executive level. The threat actor has gained access to internal communication directories and is actively disrupting corporate messaging profiles. Rogue messages are being sent from executive accounts, and the internal telemetry readouts being fed to leadership are completely contradictory, throwing the entire leadership team into total disarray.
+* **Attacker Turn 8 (2 left)**: Event: Chaos hits the executive level. The threat actor has gained access to internal communication directories and is actively disrupting corporate messaging profiles. Rogue messages are being sent from executive accounts, and the internal telemetry readouts being fed to leadership are completely contradictory, throwing the entire leadership team into total disarray.
   - Effect: -4 to Crisis Management 
 
-* Attacker Turn 9 (1 left):
+* **Attacker Turn 9 (1 left)**:
 1. **Move**: The threat actor successfully compromises the internal TACACS+ or RADIUS authentication servers, modifying the configurations to intercept administrative credentials and bypass access controls without triggering local security failures.
   - Effect: -2 to Server Analysis
+    
 2. **Event**: Our internal network engineering team just pulled off a massive breakthrough. By combing through raw physical layer connections, they successfully located a rogue administrative console that the threat actor left exposed. We have a temporary, high-visibility window into their operations before they notice and kill the connection. Management is giving the Incident Response team full authority to leverage this window in one of two ways. You must choose right now:
-  - Option 1: The network engineers use the console to trace a single, high-confidence signal. I will give you three specific cards: two are false leads, and one is the exact card you need. You get one single roll to guess the right card, but you get a massive +5 modifier to that roll due to the clean signal data.
-  - Option 2: The engineers open up the telemetry pipe as wide as possible for a brief, frantic burst. You get to choose any three cards on the board with zero hints from me. You then get three rolls to distribute across those three cards for a high-speed lightning round, but you get no bonuses to the rolls.
+  * Option 1: The network engineers use the console to trace a single, high-confidence signal. I will give you three specific cards: two are false leads, and one is the exact card you need. You get one single roll to guess the right card, but you get a massive +5 modifier to that roll due to the clean signal data.
+  * Option 2: The engineers open up the telemetry pipe as wide as possible for a brief, frantic burst. You get to choose any three cards on the board with zero hints from me. You then get three rolls to distribute across those three cards for a high-speed lightning round, but you get no bonuses to the rolls.
 
-* Attacker Turn 10 (0 left): Event: Total domain compromise is achieved. The attacker uses forged administrative credentials to modify the entire identity directory, locking out internal IT staff and seizing permanent control of the ISP routing backbone.
+* **Attacker Turn 10 (0 left)**: Event: Total domain compromise is achieved. The attacker uses forged administrative credentials to modify the entire identity directory, locking out internal IT staff and seizing permanent control of the ISP routing backbone.
 
 ---
 
