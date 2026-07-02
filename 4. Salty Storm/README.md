@@ -122,17 +122,17 @@ The incident hits full operational impact. The attacker utilizes their forged Go
 * Attacker Turn 7 (3 left): Move: The attacker alters network infrastructure boundaries by spinning up covert Generic Routing Encapsulation (GRE) and IPsec protocol tunnels over non-standard high ports, effectively routing all their staging traffic completely around corporate inspection points.
   - Effect: -2 to Firewall Log Review
 
-Attacker Turn 8 (2 left): Event: Chaos hits the executive level. The threat actor has gained access to internal communication directories and is actively disrupting corporate messaging profiles. Rogue messages are being sent from executive accounts, and the internal telemetry readouts being fed to leadership are completely contradictory, throwing the entire leadership team into total disarray.
+* Attacker Turn 8 (2 left): Event: Chaos hits the executive level. The threat actor has gained access to internal communication directories and is actively disrupting corporate messaging profiles. Rogue messages are being sent from executive accounts, and the internal telemetry readouts being fed to leadership are completely contradictory, throwing the entire leadership team into total disarray.
   - Effect: -4 to Crisis Management 
 
-Attacker Turn 9 (1 left): 
+* Attacker Turn 9 (1 left): 
 - Move: The threat actor successfully compromises the internal TACACS+ or RADIUS authentication servers, modifying the configurations to intercept administrative credentials and bypass access controls without triggering local security failures.
   - Effect: -2 to Server Analysis
 - Event: Our internal network engineering team just pulled off a massive breakthrough. By combing through raw physical layer connections, they successfully located a rogue administrative console that the threat actor left exposed. We have a temporary, high-visibility window into their operations before they notice and kill the connection. Management is giving the Incident Response team full authority to leverage this window in one of two ways. You must choose right now:
   - Option 1: The network engineers use the console to trace a single, high-confidence signal. I will give you three specific cards: two are false leads, and one is the exact card you need. You get one single roll to guess the right card, but you get a massive +5 modifier to that roll due to the clean signal data.
   - Option 2: The engineers open up the telemetry pipe as wide as possible for a brief, frantic burst. You get to choose any three cards on the board with zero hints from me. You then get three rolls to distribute across those three cards for a high-speed lightning round, but you get no bonuses to the rolls.
 
-Attacker Turn 10 (0 left): Event: Total domain compromise is achieved. The attacker uses forged administrative credentials to modify the entire identity directory, locking out internal IT staff and seizing permanent control of the ISP routing backbone.
+* Attacker Turn 10 (0 left): Event: Total domain compromise is achieved. The attacker uses forged administrative credentials to modify the entire identity directory, locking out internal IT staff and seizing permanent control of the ISP routing backbone.
 
 ---
 
