@@ -10,4 +10,4 @@ Session Details
 - Location: Live in the Skool Community
 We'll be running through this scenario live. If you want to join the session, put the date and link below in your calendar, or check out the community, you can find everything right here:
 
-Join the Live Session & Skool Community
+[Join the Live Session & Skool Community]([https://www.skool.com](https://www.skool.com/live/Nm4vg8MBpdh))
