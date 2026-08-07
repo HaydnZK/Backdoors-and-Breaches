@@ -102,7 +102,8 @@ STATUS: Flagged for analyst review. Application execution permitted (Monitor Mod
   - Effect: Defenders take a -2 penalty on SIEM Log Analysis rolls this turn.
 
 * Turn 10 (Attacker Turn 11): Event: The final payload activates in the executive portal interface. The destination wallet address is silently swapped during an automated transfer request, initiating the drain of $1.5 billion in Ethereum to the Lazarus pool.
-  - Management Bonus Event: Emergency Treasury Authorization. Realizing the firm is minutes away from total insolvency, executive management opens the floodgates. The defenders get an emergency budget boost, giving them unlimited funds or 2 extra roll bonuses on their final turn to identify and block the rogue transaction before final block confirmation.
+  - Management Bonus Event: Emergency Treasury Authorization. Realizing the firm is minutes away from total insolvency, executive management opens the floodgates. The defenders get an emergency budget boost, giving them unlimited funds for a choice of two bonuses on their final turn to identify and block the rogue transaction before final block confirmation.
+    - **Choice**: Either a +5 roll bonus to one card, or I provide three cards (two incorrect, and one correct)
 
 ---
 
