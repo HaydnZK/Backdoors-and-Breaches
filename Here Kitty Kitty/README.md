@@ -8,4 +8,4 @@ Once inside the digital ecosystem, the adversary relies on lightweight scripting
 These sessions are open to all experience levels and are very beginner-friendly! This is a fun, educational group activity where you'll play a tabletop exercise modeled like a role-playing game to practice incident response. As a team, participants roll dice, leverage defensive security tools, and work together to investigate and contain a simulated cyber attack managed by a Game Master.
 - Date: 10/08/2026
 - Time: 13:00 EST
-- Where: Cyber Careers on Skool
+- Where: [Cyber Careers Community](https://www.skool.com/cyber-careers-community/about)
