@@ -15,10 +15,10 @@ An endpoint monitoring agent flagged an unusual process interaction involving hi
 ---
 
 ## Scenario Cards
-Initial Compromise: Credential Stuffing
-Pivot/Escalate: LSASS Credential Dump
-C2/Exfil: Unauthorized Filesharing Utility
-Persistence: Additional Credential Creation 
+- Initial Compromise: Credential Stuffing
+- Pivot/Escalate: LSASS Credential Dump
+- C2/Exfil: Unauthorized Filesharing Utility
+- Persistence: Additional Credential Creation 
 
 ---
 
